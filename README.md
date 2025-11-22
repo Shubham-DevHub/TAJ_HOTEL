@@ -67,33 +67,38 @@ Copy code
 ```bash
 git clone https://github.com/your-username/taj-hotel.git
 cd taj-hotel
+```
 2. Create & Activate Virtual Environment
-bash
-Copy code
+```bash
+
 python -m venv env
 source env/bin/activate   # Mac / Linux
 env\Scripts\activate      # Windows
+```
 3. Install Dependencies
-bash
-Copy code
+```bash
+
 pip install -r requirements.txt
+```
 4. Apply Migrations
-bash
-Copy code
+```bash
+
 python manage.py migrate
+```
 5. Run the Server
-bash
-Copy code
+```bash
 python manage.py runserver
+```
 Visit in browser:
 👉 http://127.0.0.1:8000/
 
 🔐 Admin Credentials (Optional)
 Create a superuser:
 
-bash
-Copy code
+```bash
+
 python manage.py createsuperuser
+```
 Admin panel:
 👉 http://127.0.0.1:8000/admin/
 
@@ -119,11 +124,6 @@ This project is licensed under the MIT License.
 👤 Author
 *Shubham Shelar*
 Feel free to connect and collaborate!
-
-yaml
-Copy code
-
----
 
 If you'd like, I can:  
 ✅ Create a `requirements.txt`  
